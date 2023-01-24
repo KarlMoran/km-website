@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    height: 500px;
+    /* height: 500px; */
     background-color: white;
     border: solid black 1px;
 }
@@ -42,6 +42,11 @@ h1 {
     font-size: 90px;
     margin: 0;
 }
+
+h2 {
+    font-size: 50px;
+}
+
 
 p {
     margin: 0;
@@ -98,4 +103,32 @@ p {
     margin: 15px;  
 }
 
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
 
+.headshot {
+    width: 400px;
+    height: 300px;
+
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+      left   var(--_i,0%) top    var(--_g),
+      bottom var(--_i,0%) left   var(--_g),
+      top    var(--_i,0%) right  var(--_g),
+      right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+
+
+.headshot:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}

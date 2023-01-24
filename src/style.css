@@ -5,7 +5,7 @@ body {
 section {
     /* height: 500px; */
     background-color: white;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .hero {
@@ -47,6 +47,11 @@ h2 {
     font-size: 50px;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: 300px;
+    margin: 5px;
+}
 
 p {
     margin: 0;
@@ -109,9 +114,16 @@ p {
     padding: 80px;
 }
 
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+
 .headshot {
     width: 400px;
-    height: 300px;
+    height: 250px;
 
     --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
     --m:
@@ -131,4 +143,42 @@ p {
 .headshot:hover {
     --_i: 10%;
     filter: grayscale(0);
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-info {
+    font-size: 20px;
+    width: 550px;
+}
+
+.portfolio-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(169, 167, 167);
+    margin: 10px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-img {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.link {
+   text-decoration: none;
+   color: #ef744b;
 }

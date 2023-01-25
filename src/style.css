@@ -114,6 +114,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    height: 500px;
 }
 
 .sub-section-alternative {
@@ -169,6 +170,13 @@ p {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+    .portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .portfolio-img {
     margin-top: 25px;
     width: 250px;
@@ -188,4 +196,23 @@ hr {
 a {
     text-decoration: none;
     color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 35px;
+    }
+
+    ul {
+        display: none;
+    }
 }

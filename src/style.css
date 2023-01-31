@@ -14,7 +14,7 @@ section {
     height: 100vh;
     color: whitesmoke;
     font-size: 40px;
-    background-image: url("/src/images/design2.png");
+    background-image: url("/src/images/wave-background.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -120,7 +120,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 .button3 {
     background-color: #ffee00; 
@@ -131,7 +131,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 .button4 {
     background-color: #ac57ce; 
@@ -142,7 +142,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 .button5 {
     background-color: #02d5ff;
@@ -153,7 +153,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 .social {
     padding-bottom: 200px;

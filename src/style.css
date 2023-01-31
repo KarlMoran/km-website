@@ -240,6 +240,11 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .sub-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .portfolio-img {

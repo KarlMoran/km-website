@@ -155,7 +155,7 @@ p {
 }
 
 .social {
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     height: 50px;
     width: 50px;
     margin: 20px;
@@ -168,6 +168,12 @@ p {
 .logo {
     height: 120px;
     margin: 15px;  
+}
+
+.logof {
+    float: right;
+    height: 175px;
+    margin-top: -175px;
 }
 
 .sub-section {
@@ -303,6 +309,10 @@ a {
     }
 
     .logo {
+        display: none;
+    }
+
+    .logof {
         display: none;
     }
 }

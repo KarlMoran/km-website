@@ -48,7 +48,6 @@ h1 {
     font-size: 90px;
     margin: 0;
     font-weight: 900;
-
 }
 
 h2 {
@@ -306,4 +305,27 @@ a {
     .logo {
         display: none;
     }
+}
+
+@media only screen and (max-width: 390px){
+
+    h1 {
+        font-size: 35px;
+        margin-right: 80px;
+    }
+
+    .button {
+        width: 100px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .sub-section {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: smaller;
+    }
+
+    
+
 }
